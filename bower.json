@@ -1,0 +1,19 @@
+{
+  "name": "ls_dz1_site",
+  "version": "0.1.0",
+  "authors": [
+    "Evgeniya Pronina <rezinkina@list.ru>"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1",
+    "normalize-css": "normalize.css#~3.0.3"
+  }
+}
