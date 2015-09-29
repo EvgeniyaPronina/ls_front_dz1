@@ -74,9 +74,9 @@
 			<div class="nav_adress_wrap">
 				<nav class="s_nav">
 					<ul class="s_nav_ul">
-						<li class="s_nav_li s_nav_li_first s_nav_li_active"><a href="">Обо мне</a></li>
+						<li class="s_nav_li s_nav_li_first"><a href="index.html">Обо мне</a></li>
 						<li class="s_nav_li"><a href="portfolio.html">Мои работы</a></li>
-						<li class="s_nav_li s_nav_li_last"><a href="contacts.html">Обратная связь</a></li>
+						<li class="s_nav_li s_nav_li_last s_nav_li_active"><a href="">Обратная связь</a></li>
 					</ul>
 				</nav>
 				<adress class="s_adress">
@@ -91,112 +91,37 @@
 				
 			<main class="main_wrap">
 				<section class="content_section">
-					<div class="contert_section_header">Основная информация</div>
+					<div class="contert_section_header">У вас интересный проект? Напишите мне</div>
 					<div class="content_section_contentbox">
-						<div class="about_me_item clearfix">
-							<div class="photo_box">
-								<div class="photo_frame">
-									<img class="my_photo" src="img/my_photo.jpg" height="134" width="134">
+						<div class="contacts_wrap clearfix">
+							<div class="name_and_email_wrap clearfix">
+								<div class="name_wrap">
+									<p class="contacts_item_header">Имя</p>
+									<input class="name_email_input" type="text" placeholder="Как к вам обращаться">
+								</div>
+								<div class="email_wrap">
+									<p class="contacts_item_header">Email</p>
+									<input class="name_email_input" type="text" placeholder="Куда мне писать">
 								</div>
 							</div>
-							<div class="about_me_info_box">
-								<p class="about_me_info"><span class="semibold">Меня зовут:</span> Пронина Евгения Александровна</p>
-								<p class="about_me_info"><span class="semibold">Мой возраст:</span> 32 года</p>
-								<p class="about_me_info"><span class="semibold">Мой город:</span> Барнаул, Россия</p>
-								<p class="about_me_info"><span class="semibold">Моя специализация:</span> frontend разработка</p>
-								<table class="tags_table">
-									<tr>
-										<td class="semibold tags_header">Ключевые навыки:</td>
-										<td>
-											<span class="tag">HTML</span>
-											<span class="tag">CSS</span>
-											<span class="tag">JavaScript</span>
-											<span class="tag">Git</span>
-											<span class="tag">Gulp</span>
-											<span class="tag">PHP</span>
-											<span class="tag">Angular</span>
-											<span class="tag">xml</span>
-										</td>
-									</tr>
-								</table>
-
-							</div>
-						</div>
-					</div>
-				</section>
-				<section class="content_section">
-					<div class="contert_section_header">Опыт работы</div>
-					<div class="content_section_contentbox">
-						<div class="personal_info_item personal_info_item_first clearfix">
-							<div class="item_img_frame">
-								<div class="item_img_box">
-									<img src="img/portfolio.png" height="19" width="21">
+							<p class="contacts_item_header">Сообщение</p>
+							<textarea class="message_textarea" name="" placeholder="Кратко в чем суть" id="" cols="30" rows="10"></textarea>
+							<p class="contacts_item_header">Введите код, указанный на картинке</p>
+							<div class="name_and_email_wrap clearfix">
+								<div class="name_wrap">
+									<div class="capcha_box">КАПЧА!</div>
+								</div>
+								<div class="email_wrap">
+									<input class="code_input" type="text" placeholder="Введите код">
 								</div>
 							</div>
-							<div class="personal_info_item_content_box">
-								<p class="semibold">"ИП Боровицкий" - Продавец дисков</p>
-								<p>Сентябрь 2005 - Август 2008</p>
-							</div>
-						</div>
-						<div class="personal_info_item clearfix">
-							<div class="item_img_frame">
-								<div class="item_img_box">
-									<img src="img/portfolio.png" height="19" width="21">
+							<div class="name_and_email_wrap clearfix">
+								<div class="name_wrap">
+									<input class="contacts_button_input colored_green_button" type="button" value="Отправить">
 								</div>
-							</div>
-							<div class="personal_info_item_content_box">
-								<p class="semibold">"ООО Системы безопастности" - Системный администратор</p>
-								<p>Июнь 2008 - Июль 2010</p>
-							</div>
-						</div>
-						<div class="personal_info_item personal_info_item_last clearfix">
-							<div class="item_img_frame">
-								<div class="item_img_box">
-									<img src="img/portfolio.png" height="19" width="21">
+								<div class="email_wrap">
+									<input class="contacts_button_input colored_light_button" type="button" value="Очистить">
 								</div>
-							</div>
-							<div class="personal_info_item_content_box">
-								<p class="semibold">"Магнит, Розничная сеть" - Ведущий аналитик по внедрению Oracle Web Center
-</p>
-								<p>Август 2011 - Октябрь 2012</p>
-							</div>
-						</div>
-					</div>
-				</section>
-				<section class="content_section">
-					<div class="contert_section_header">Образование</div>
-					<div class="content_section_contentbox">
-						<div class="personal_info_item personal_info_item_first clearfix">
-							<div class="item_img_frame">
-								<div class="item_img_box">
-									<img src="img/note.png" height="21" width="21">
-								</div>
-							</div>
-							<div class="personal_info_item_content_box">
-								<p class="semibold">Полное среднее. Физико-математический лицей № 30</p>
-								<p>1994 - 2004</p>
-							</div>
-						</div>
-						<div class="personal_info_item clearfix">
-							<div class="item_img_frame">
-								<div class="item_img_box">
-									<img src="img/hat.png" height="18" width="27">
-								</div>
-							</div>
-							<div class="personal_info_item_content_box">
-								<p class="semibold">Незаконченное высшее. СПБГУ ИТМО</p>
-								<p>Октябрь 2012 - по настоящее время</p>
-							</div>
-						</div>
-						<div class="personal_info_item personal_info_item_last clearfix">
-							<div class="item_img_frame">
-								<div class="item_img_box">
-									<img src="img/file.png" height="20" width="15">
-								</div>
-							</div>
-							<div class="personal_info_item_content_box">
-								<p class="semibold">Курсы Loftschool.ru</p>
-								<p>Ноябрь 2014 - по настоящее время</p>
 							</div>
 						</div>
 					</div>

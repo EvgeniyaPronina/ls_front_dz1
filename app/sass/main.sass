@@ -27,6 +27,21 @@ body
 .clearfix:after
 	clear: both
 
+.hidden
+	display: none
+
+.opacity0
+	opacity: 0
+
+.unvisible
+	visibility: hidden
+
+.pos_static
+	position: static
+
+.h100per
+	height: 100%
+
 /* Font stylization classes */
 
 .semibold
@@ -277,13 +292,15 @@ body
 	background: #efefef
 	border: 1px solid rgba(0,0,0,.2)
 	border-radius: 0 0 5px 5px
-	padding-left: 50px
+	padding-left: 38px
+	padding-right: 38px
 	padding-top: 18px
 	padding-bottom: 18px
 
 .about_me_item
 	margin-top: 20px
 	margin-bottom: 20px
+	margin-left: 12px
 
 .photo_box
 	float: left
@@ -303,7 +320,6 @@ body
 
 .about_me_info_box
 	margin-left: 192px
-	padding-right: 25px
 
 .about_me_info
 	margin-top: 0
@@ -361,7 +377,8 @@ body
 	transform: rotate(45deg)
 
 .personal_info_item
-	margin-right: 50px
+	margin-right: 12px
+	margin-left: 12px
 	border-bottom: 1px solid #dbdbda
 	border-top: 1px solid #fff
 	padding-top: 18px
@@ -413,16 +430,21 @@ body
 .item_img_box img
 	vertical-align: middle
 
-/* Portfolio page classes */
+/* Portfolio page styles */
 
 .my_work_box
 	width: 165px
 	border: 1px solid rgba(0,0,0,.2)
 	border-radius: 7px
 	display: inline-block
-	margin-right: 20px
+	margin-right: 10px
+	margin-left: 10px
 	margin-bottom: 22px
 	vertical-align: top
+
+.portfolio_box
+	padding-top: 21px
+	padding-bottom: 50px
 
 .my_work_img_box
 	margin: 0
@@ -432,10 +454,47 @@ body
 	overflow: hidden
 	border-radius: 7px 7px 0 0
 	border-bottom: 1px solid rgba(0,0,0,.2)
+	position: relative
+
+.my_work_img_box_hover
+	position: absolute
+	width: 100%
+	height: 100%
+	background: rgba(0,0,0,.7)
+	z-index: 2
+	bottom: -120px
+	border-radius: 7px 7px 0 0
+	transition: .2s all
+
+
+.my_work_img_box:hover .my_work_img_box_hover
+	bottom: 0
+	transition: .2s all
+
+.my_work_more_info
+	width: 81px
+	text-align: center
+	line-height: 22px
+	height: 22px
+	margin-top: 48px
+	background: #f2f1f0
+	position: absolute
+	color: #343434
+	border-radius: 5px
+	right: -82px
+	transition: .0s all .2s
+	font-size: 11px
+	cursor: pointer
+
+
+.my_work_img_box:hover .my_work_more_info
+	right: 42px
+	transition: .1s all ease-in .2s
 
 .my_work_img
 	margin: 0
 	padding: 0
+	z-index: 1
 	
 
 .my_work_header
@@ -454,6 +513,345 @@ body
 	margin: 10px 7px
 	border-radius: 0 0 7px 7px
 
+.add_project_box
+	width: 165px
+	height: 133px
+	border: 1px solid rgba(0,0,0,.2)
+	border-radius: 7px
+	display: inline-block
+	margin-right: 10px
+	margin-left: 10px
+	margin-bottom: 22px
+	vertical-align: top
+	cursor: pointer
+	background: #faf9f9
+	background: -moz-linear-gradient(top,  #faf9f9 0%, #e9e7e6 100%)
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#faf9f9), color-stop(100%,#e9e7e6))
+	background: -webkit-linear-gradient(top,  #faf9f9 0%,#e9e7e6 100%)
+	background: -o-linear-gradient(top,  #faf9f9 0%,#e9e7e6 100%)
+	background: -ms-linear-gradient(top,  #faf9f9 0%,#e9e7e6 100%)
+	background: linear-gradient(to bottom,  #faf9f9 0%,#e9e7e6 100%)
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#faf9f9', endColorstr='#e9e7e6',GradientType=0 )
+
+.add_project_box:hover
+	background: #e8e7e7
+	background: -moz-linear-gradient(top,  #e8e7e7 0%, #c0bebe 100%)
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e8e7e7), color-stop(100%,#c0bebe))
+	background: -webkit-linear-gradient(top,  #e8e7e7 0%,#c0bebe 100%)
+	background: -o-linear-gradient(top,  #e8e7e7 0%,#c0bebe 100%)
+	background: -ms-linear-gradient(top,  #e8e7e7 0%,#c0bebe 100%)
+	background: linear-gradient(to bottom,  #e8e7e7 0%,#c0bebe 100%)
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e7e7', endColorstr='#c0bebe',GradientType=0 )
+
+.add_project_box:hover .add_proj_img_frame
+	background: #757575
+	background: -moz-linear-gradient(-45deg,  #757575 0%, #ffffff 100%)
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#757575), color-stop(100%,#ffffff))
+	background: -webkit-linear-gradient(-45deg,  #757575 0%,#ffffff 100%)
+	background: -o-linear-gradient(-45deg,  #757575 0%,#ffffff 100%)
+	background: -ms-linear-gradient(-45deg,  #757575 0%,#ffffff 100%)
+	background: linear-gradient(135deg,  #757575 0%,#ffffff 100%)
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', endColorstr='#ffffff',GradientType=1 )
+
+.add_project_box:hover .add_proj_img_box
+	background: #d7d7d7
+
+.add_proj_img_frame
+	width: 56px
+	height: 56px
+	margin: 20px auto 8px
+	background: #cfcfcf
+	background: -moz-linear-gradient(-45deg,  #cfcfcf 0%, #ffffff 100%)
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#cfcfcf), color-stop(100%,#ffffff))
+	background: -webkit-linear-gradient(-45deg,  #cfcfcf 0%,#ffffff 100%)
+	background: -o-linear-gradient(-45deg,  #cfcfcf 0%,#ffffff 100%)
+	background: -ms-linear-gradient(-45deg,  #cfcfcf 0%,#ffffff 100%)
+	background: linear-gradient(135deg,  #cfcfcf 0%,#ffffff 100%)
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfcfcf', endColorstr='#ffffff',GradientType=1 )
+	border-radius: 50%
+	position: relative
+
+.add_proj_img_box
+	width: 54px
+	height: 54px
+	line-height: 54px
+	background: #f7f7f7
+	border-radius: 50%
+	position: absolute
+	top: 1px
+	left: 1px
+	text-align: center
+
+.add_proj_img_box img
+	vertical-align: middle
+
+.add_project_header
+	line-height: 32px
+	width: 165px
+	text-align: center
+	font-size: 14px
+	font-weight: 600
+	margin-top: 4px
+	text-shadow: 0px 1px 0px #e5e5ee
+
+
+/* Authorize window */
+
+.authorize_popup
+	position: fixed
+	top: 0
+	bottom: 0
+	right: 0
+	left: 0
+	z-index: 10
+
+.authorize_window
+	width: 332px
+	height: 270px
+	top: 50%
+	left: 50%
+	margin-left: -166px
+	margin-top: -150px
+	position: absolute
+	background: #fafaf9
+	background: -moz-linear-gradient(top,  #fafaf9 0%, #f0eeed 100%)
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fafaf9), color-stop(100%,#f0eeed))
+	background: -webkit-linear-gradient(top,  #fafaf9 0%,#f0eeed 100%)
+	background: -o-linear-gradient(top,  #fafaf9 0%,#f0eeed 100%)
+	background: -ms-linear-gradient(top,  #fafaf9 0%,#f0eeed 100%)
+	background: linear-gradient(to bottom,  #fafaf9 0%,#f0eeed 100%)
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafaf9', endColorstr='#f0eeed',GradientType=0 )
+	border-radius: 7px
+	border: 1px solid #d2d2d2
+	box-shadow: 0 18px 13px -13px rgba(0,0,0,.1)
+	transition: .2s all
+
+.authorize_window_close_box
+	text-align: right
+	margin: 7px 0
+	position: relative
+
+.authorize_miniheader
+	position: absolute
+	left: 23px
+	font-size: 12px
+	top: -29px
+
+.authorize_window_close_x
+	cursor: pointer
+	padding: 2px 9px
+
+.authorize_text_input
+	border: 1px solid #d6d5d3
+	border-radius: 5px
+	font-size: 12px
+	width: 182px
+	display: block
+	margin: 0 auto 24px
+	line-height: 36px
+	padding-left: 70px
+
+.authorize_checkbox_input_box
+	padding-left: 40px
+	margin: 16px 0 20px
+	vertical-align: middle
+
+.authorize_checkbox_input
+	background: white
+
+.authorize_checkbox_input_text
+	padding-left: 10px
+	font-size: 14px
+
+.authorize_button_input
+	background: #7fe8cb
+	background: -moz-linear-gradient(top,  #7fe8cb 0%, #45b998 100%)
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7fe8cb), color-stop(100%,#45b998))
+	background: -webkit-linear-gradient(top,  #7fe8cb 0%,#45b998 100%)
+	background: -o-linear-gradient(top,  #7fe8cb 0%,#45b998 100%)
+	background: -ms-linear-gradient(top,  #7fe8cb 0%,#45b998 100%)
+	background: linear-gradient(to bottom,  #7fe8cb 0%,#45b998 100%)
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7fe8cb', endColorstr='#45b998',GradientType=0 )
+	margin: 0 auto
+	display: block
+	color: #227464
+	font-size: 14px
+	font-weight: 600
+	width: 150px
+	height: 38px
+	text-shadow: 0px 1px 0px #e5e5ee
+	border-radius: 7px
+	border: 1px solid rgba(255,255,255,.4)
+	border-bottom: 1px solid rgba(0,0,0,.3)
+	box-shadow: none
+
+.authorize_button_input:active
+	color: #14342b
+	text-shadow: 0px 1px 0px #a2a2a2
+	background: #399f82
+	background: -moz-linear-gradient(top,  #399f82 0%, #36977b 100%)
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#399f82), color-stop(100%,#36977b))
+	background: -webkit-linear-gradient(top,  #399f82 0%,#36977b 100%)
+	background: -o-linear-gradient(top,  #399f82 0%,#36977b 100%)
+	background: -ms-linear-gradient(top,  #399f82 0%,#36977b 100%)
+	background: linear-gradient(to bottom,  #399f82 0%,#36977b 100%)
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#399f82', endColorstr='#36977b',GradientType=0 )
+
+.authorize_text_input_email
+	background-image: url(../img/email.png)
+	background-repeat: no-repeat
+	background-position: left center
+
+.authorize_text_input_pass
+	background-image: url(../img/key.png)
+	background-repeat: no-repeat
+	background-position: left center
+
+/* Contacts section styles */
+
+.contacts_wrap
+	min-height: 100px
+	width: 402px
+	margin: 15px auto 70px
+
+.name_and_email_wrap
+	margin-bottom: 13px
+
+.name_wrap
+	float: left
+	width: 47%
+
+.email_wrap
+	float: right
+	width: 47%
+
+.name_email_input
+	display: block
+	line-height: 39px
+	width: 100%
+	box-sizing: border-box
+	border-radius: 4px
+	font-size: 12px
+	padding-left: 7px
+	border: 1px solid rgba(0,0,0,.2)
+	background: #fbfcfd
+	background: -moz-linear-gradient(top,  #fbfcfd 0%, #f4f3f4 100%)
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fbfcfd), color-stop(100%,#f4f3f4))
+	background: -webkit-linear-gradient(top,  #fbfcfd 0%,#f4f3f4 100%)
+	background: -o-linear-gradient(top,  #fbfcfd 0%,#f4f3f4 100%)
+	background: -ms-linear-gradient(top,  #fbfcfd 0%,#f4f3f4 100%)
+	background: linear-gradient(to bottom,  #fbfcfd 0%,#f4f3f4 100%)
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfcfd', endColorstr='#f4f3f4',GradientType=0 )
+
+
+.contacts_item_header
+	margin: 0 0 7px 0
+	font-size: 14px
+
+.message_textarea
+	font-size: 12px
+	border-radius: 4px
+	display: block
+	padding-top: 9px
+	width: 100%
+	resize: none
+	box-sizing: border-box
+	margin-bottom: 13px
+	background: #fbfcfd
+	background: -moz-linear-gradient(top,  #fbfcfd 0%, #f4f3f4 100%)
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fbfcfd), color-stop(100%,#f4f3f4))
+	background: -webkit-linear-gradient(top,  #fbfcfd 0%,#f4f3f4 100%)
+	background: -o-linear-gradient(top,  #fbfcfd 0%,#f4f3f4 100%)
+	background: -ms-linear-gradient(top,  #fbfcfd 0%,#f4f3f4 100%)
+	background: linear-gradient(to bottom,  #fbfcfd 0%,#f4f3f4 100%)
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfcfd', endColorstr='#f4f3f4',GradientType=0 )
+	padding-left: 7px
+	border: 1px solid rgba(0,0,0,.2)
+
+.capcha_box
+	background: white
+	border: 1px solid rgba(0,0,0,.2)
+	border-radius: 4px
+	height: 78px
+	text-align: center
+	padding-top: 27px
+	box-sizing: border-box
+
+.code_input
+	margin-top: 19px
+	display: block
+	line-height: 31px
+	width: 100%
+	box-sizing: border-box
+	border-radius: 4px
+	font-size: 12px
+	padding-left: 7px
+	border: 1px solid rgba(0,0,0,.2)
+	background: #fbfcfd
+	background: -moz-linear-gradient(top,  #fbfcfd 0%, #f4f3f4 100%)
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fbfcfd), color-stop(100%,#f4f3f4))
+	background: -webkit-linear-gradient(top,  #fbfcfd 0%,#f4f3f4 100%)
+	background: -o-linear-gradient(top,  #fbfcfd 0%,#f4f3f4 100%)
+	background: -ms-linear-gradient(top,  #fbfcfd 0%,#f4f3f4 100%)
+	background: linear-gradient(to bottom,  #fbfcfd 0%,#f4f3f4 100%)
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfcfd', endColorstr='#f4f3f4',GradientType=0 )
+
+.contacts_button_input
+	margin: 0 auto
+	display: block
+	font-size: 14px
+	font-weight: 600
+	width: 123px
+	height: 38px
+	text-shadow: 0px 1px 0px #e5e5ee
+	border-radius: 7px
+	border: 1px solid rgba(255,255,255,.4)
+	border-bottom: 1px solid rgba(0,0,0,.3)
+	box-shadow: none
+
+.colored_green_button
+	background: #7fe8cb
+	background: -moz-linear-gradient(top,  #7fe8cb 0%, #45b998 100%)
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7fe8cb), color-stop(100%,#45b998))
+	background: -webkit-linear-gradient(top,  #7fe8cb 0%,#45b998 100%)
+	background: -o-linear-gradient(top,  #7fe8cb 0%,#45b998 100%)
+	background: -ms-linear-gradient(top,  #7fe8cb 0%,#45b998 100%)
+	background: linear-gradient(to bottom,  #7fe8cb 0%,#45b998 100%)
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7fe8cb', endColorstr='#45b998',GradientType=0 )
+	color: #227464
+
+.colored_green_button:active
+	color: #14342b
+	text-shadow: 0px 1px 0px #a2a2a2
+	background: #399f82
+	background: -moz-linear-gradient(top,  #399f82 0%, #36977b 100%)
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#399f82), color-stop(100%,#36977b))
+	background: -webkit-linear-gradient(top,  #399f82 0%,#36977b 100%)
+	background: -o-linear-gradient(top,  #399f82 0%,#36977b 100%)
+	background: -ms-linear-gradient(top,  #399f82 0%,#36977b 100%)
+	background: linear-gradient(to bottom,  #399f82 0%,#36977b 100%)
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#399f82', endColorstr='#36977b',GradientType=0 )
+
+.colored_light_button
+	background: #faf9f9
+	background: -moz-linear-gradient(top,  #faf9f9 0%, #e5e3e2 100%)
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#faf9f9), color-stop(100%,#e5e3e2))
+	background: -webkit-linear-gradient(top,  #faf9f9 0%,#e5e3e2 100%)
+	background: -o-linear-gradient(top,  #faf9f9 0%,#e5e3e2 100%)
+	background: -ms-linear-gradient(top,  #faf9f9 0%,#e5e3e2 100%)
+	background: linear-gradient(to bottom,  #faf9f9 0%,#e5e3e2 100%)
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#faf9f9', endColorstr='#e5e3e2',GradientType=0 )
+	border: 1px solid rgba(0,0,0,.2)
+
+.colored_light_button:active
+	background: #e8e7e7
+	background: -moz-linear-gradient(top,  #e8e7e7 0%, #bfbdbd 100%)
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e8e7e7), color-stop(100%,#bfbdbd))
+	background: -webkit-linear-gradient(top,  #e8e7e7 0%,#bfbdbd 100%)
+	background: -o-linear-gradient(top,  #e8e7e7 0%,#bfbdbd 100%)
+	background: -ms-linear-gradient(top,  #e8e7e7 0%,#bfbdbd 100%)
+	background: linear-gradient(to bottom,  #e8e7e7 0%,#bfbdbd 100%)
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e7e7', endColorstr='#bfbdbd',GradientType=0 )
 
 /* Footer styles */
 

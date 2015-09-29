@@ -12,7 +12,25 @@
 	<meta name="keywords" content="">
 	<meta name="author" content="">
 	<!-- Favicon -->
-	
+	<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon-180x180.png">
+	<link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="favicon/android-chrome-192x192.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="favicon/manifest.json">
+	<link rel="shortcut icon" href="favicon/favicon.ico">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="favicon/mstile-144x144.png">
+	<meta name="msapplication-config" content="favicon/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
 	<!-- CSS -->
 	<link rel="stylesheet" href="bower/normalize-css/normalize.css">
 	<link rel="stylesheet" href="css/main.css">
@@ -24,7 +42,19 @@
 	<!--[if lt IE 8]>
 	<p class="browserhappy">Ваш браузер <strong>устарел</strong>. Пожалуйста <a href="http://browsehappy.com/">обновите</a> его.</p>
 	<![endif]-->
-
+	<div class="authorize_popup hidden">
+		<div class="authorize_window hidden">
+			<p class="authorize_window_close_box">
+				<span class="authorize_window_close_x">X</span>
+			</p>
+			<form>
+					<input class="authorize_text_input authorize_text_input_email" placeholder="Введите e-mail" type="text" required>
+					<input class="authorize_text_input authorize_text_input_pass" placeholder="Введите пароль" type="text" required>
+					<p class="authorize_checkbox_input_box"><input class="authorize_checkbox_input" type="checkbox"><span class="authorize_checkbox_input_text">Запомнить меня?</span></p>
+					<input class="authorize_button_input" type="button" value="Войти">
+				</form>			
+		</div>
+	</div>
 	<header class="s_header">
 		<div class="s_header_content">
 			<div class="logo_wrap">
@@ -43,9 +73,9 @@
 			<div class="nav_adress_wrap">
 				<nav class="s_nav">
 					<ul class="s_nav_ul">
-						<li class="s_nav_li s_nav_li_first s_nav_li_active"><a href="index.html">Обо мне</a></li>
-						<li class="s_nav_li"><a href="">Мои работы</a></li>
-						<li class="s_nav_li s_nav_li_last"><a href="">Обратная связь</a></li>
+						<li class="s_nav_li s_nav_li_first"><a href="index.html">Обо мне</a></li>
+						<li class="s_nav_li s_nav_li_active"><a href="">Мои работы</a></li>
+						<li class="s_nav_li s_nav_li_last"><a href="contacts.html">Обратная связь</a></li>
 					</ul>
 				</nav>
 				<adress class="s_adress">
@@ -62,9 +92,12 @@
 				<section class="content_section">
 					<div class="contert_section_header">Мои работы</div>
 					<div class="content_section_contentbox">
-						<div class="about_me_item clearfix">
+						<div class="portfolio_box clearfix">
 							<div class="my_work_box">
 								<div class="my_work_img_box">
+									<div class="my_work_img_box_hover">
+										<div class="my_work_more_info">Посмотреть</div>
+									</div>
 									<img class="my_work_img" src="img/portfolio1.jpg" alt="Работа №1, портфолио Прониной Евгении">
 								</div>
 								<div class="my_work_header">a-industry.ru</div>
@@ -72,25 +105,54 @@
 							</div>
 							<div class="my_work_box">
 								<div class="my_work_img_box">
-									<img class="my_work_img" src="img/portfolio1.jpg" alt="Работа №1, портфолио Прониной Евгении">
+									<div class="my_work_img_box_hover">
+										<div class="my_work_more_info">Посмотреть</div>
+									</div>
+									<img class="my_work_img" src="img/portfolio2.jpg" alt="Работа №1, портфолио Прониной Евгении">
 								</div>
-								<div class="my_work_header">a-industry.ru</div>
-								<div class="my_work_descr">Корпоративный и в тоже время продающий сайт строительной компании a-industry. Lorem ipsum dolor sit.</div>
+								<div class="my_work_header">домгазобетон.рф</div>
+								<div class="my_work_descr">Продающая страница для компании ledenland.</div>
 							</div>
 							<div class="my_work_box">
 								<div class="my_work_img_box">
-									<img class="my_work_img" src="img/portfolio1.jpg" alt="Работа №1, портфолио Прониной Евгении">
+									<div class="my_work_img_box_hover">
+										<div class="my_work_more_info">Посмотреть</div>
+									</div>
+									<img class="my_work_img" src="img/portfolio3.jpg" alt="Работа №1, портфолио Прониной Евгении">
 								</div>
-								<div class="my_work_header">a-industry.ru</div>
-								<div class="my_work_descr">Корпоративный и в тоже время продающий сайт строительной компании a-industry.</div>
+								<div class="my_work_header">crmconsulting.biz</div>
+								<div class="my_work_descr">Лендинг компании «СRM Consulting» специализирующейся на точной настройке Битрикс24 под бизнес.</div>
 							</div>
 							<div class="my_work_box">
 								<div class="my_work_img_box">
-									<img class="my_work_img" src="img/portfolio1.jpg" alt="Работа №1, портфолио Прониной Евгении">
+									<div class="my_work_img_box_hover">
+										<div class="my_work_more_info">Посмотреть</div>
+									</div>
+									<img class="my_work_img" src="img/portfolio4.jpg" alt="Работа №1, портфолио Прониной Евгении">
 								</div>
-								<div class="my_work_header">a-industry.ru</div>
-								<div class="my_work_descr">Корпоративный и в тоже время продающий сайт строительной компании a-industry.</div>
+								<div class="my_work_header">landingsloft.ru</div>
+								<div class="my_work_descr">Сайт по услугам разработки продающих лендингов.</div>
 							</div>
+							<div class="my_work_box">
+								<div class="my_work_img_box">
+									<div class="my_work_img_box_hover">
+										<div class="my_work_more_info">Посмотреть</div>
+									</div>
+									<img class="my_work_img" src="img/portfolio5.jpg" alt="Работа №1, портфолио Прониной Евгении">
+								</div>
+								<div class="my_work_header">yasnow.biz</div>
+								<div class="my_work_descr">Landing page по продажи франшизы снежного бизнеса.</div>
+							</div>
+							<div class="add_project_box">
+								<div class="add_proj_img_frame">
+									<div class="add_proj_img_box">
+										<img src="img/polaroid.png" height="21" width="21">
+									</div>
+								</div>
+								<p class="add_project_header">Добавить проект</p>
+								
+							</div>
+
 						</div>
 					</div>
 				</section>
