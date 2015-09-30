@@ -114,6 +114,9 @@ body {
 .nav_adress_wrap ul {
   list-style-type: none; }
 
+.s_nav {
+  margin-bottom: 34px; }
+
 .s_nav_ul {
   padding: 0;
   margin: 0;
@@ -173,7 +176,6 @@ body {
   display: block; }
 
 .s_adress {
-  margin-top: 34px;
   display: block; }
 
 .s_adress a {
@@ -222,7 +224,8 @@ body {
   height: 40px;
   line-height: 38px;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  font-size: 14px; }
+  font-size: 14px;
+  display: block; }
 
 .s_adress_li_item span, .s_adress_li_item a, .s_adress_li_item img {
   display: block;
@@ -230,6 +233,30 @@ body {
 
 .s_adress_li_item img {
   margin-right: 35px; }
+
+.s_adress_li_item_mail {
+  background-image: url(../img/arrow_mail.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 100%;
+  width: 96px;
+  float: left; }
+
+.s_adress_li_item_phone {
+  background-image: url(../img/arrow_phone.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 100%;
+  width: 96px;
+  float: left; }
+
+.s_adress_li_item_skype {
+  background-image: url(../img/arrow_skype.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 100%;
+  width: 96px;
+  float: left; }
 
 .s_adress_li_item_first {
   background: #f7f0e2;
@@ -302,9 +329,18 @@ body {
   text-align: center;
   line-height: 152px; }
 
-.my_photo {
+.photo_wrapper {
+  overflow: hidden;
+  width: 134px;
+  height: 134px;
   border-radius: 50%;
+  display: inline-block;
   vertical-align: middle; }
+
+.my_photo {
+  margin: 0;
+  padding: 0;
+  border: none; }
 
 .about_me_info_box {
   margin-left: 192px; }
@@ -314,9 +350,15 @@ body {
   margin-bottom: 11px;
   font-size: 14px; }
 
+.about_me_info_last {
+  margin-bottom: 22px; }
+
 .tags_table {
-  font-size: 14px;
-  margin-top: 22px; }
+  font-size: 14px; }
+
+.tags_table ul {
+  margin: 0;
+  padding: 0; }
 
 .tags_header {
   padding-right: 15px;
@@ -1126,6 +1168,9 @@ body {
   cursor: pointer;
   margin-left: 184px; }
 
+.lock_box:hover {
+  background-position: 0 -22px; }
+
 .lock_box.lock_box_active {
   background-position: 0 -22px; }
 
@@ -1133,7 +1178,8 @@ body {
   margin-left: 6px;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 15px; }
+  font-size: 15px;
+  cursor: pointer; }
 
 .footer_text {
   margin-left: 60px;

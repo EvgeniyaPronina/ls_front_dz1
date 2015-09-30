@@ -1,3 +1,13 @@
+function func1() {
+	console.log(window);
+	console.log("innerHeight " + window.innerHeight);
+	console.log("innerWidth " + window.innerWidth);
+	console.log("outerHeight " + window.outerHeight);
+	console.log("outerWidth " + window.outerWidth);
+}
+
+window.onload = func1;
+
 $(document).ready(function() {
 	
 	console.log("js works");
@@ -7,6 +17,23 @@ $(document).ready(function() {
 	var openCloseAuthPopup = function() {
 		$(".lock_box").click(function() {
 			$(this).toggleClass("lock_box_active");
+			if ($(".authorize_popup").hasClass("hidden")) {
+				$(".authorize_popup").removeClass("hidden");
+				$(".authorize_window").removeClass("hidden");
+				$(".s_header").addClass("unvisible");
+				$(".page_wrap").addClass("unvisible");
+				$(".footer").addClass("unvisible");
+			} else {
+				$(".authorize_popup").addClass("hidden");
+				$(".authorize_window").addClass("hidden");
+				$(".s_header").removeClass("unvisible");
+				$(".page_wrap").removeClass("unvisible");
+				$(".footer").removeClass("unvisible");
+			}
+		});
+
+		$(".lock_text").click(function() {
+			$(".lock_box").toggleClass("lock_box_active");
 			if ($(".authorize_popup").hasClass("hidden")) {
 				$(".authorize_popup").removeClass("hidden");
 				$(".authorize_window").removeClass("hidden");

@@ -36,6 +36,7 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/media.css">
 	<!-- JS -->
+	<script src="bower/html5shiv/dist/html5shiv.js"></script>
 
 </head>
 <body class="page_main window_settings">
@@ -61,10 +62,16 @@
 			<div class="logo_wrap">
 				<a href="#"><img src="img/logo.png" alt="LostSchool logo"></a>
 			</div>
-			<a href="#"><div class="icon_box icon_fb"></div></a>
-			<a href="#"><div class="icon_box icon_vk"></div></a>
-			<a href="#"><div class="icon_box icon_twitter"></div></a>
-			<a href="#"><div class="icon_box last_icon_box icon_github"></div></a>
+			<a href="https://www.facebook.com" target="_blank"><div class="icon_box icon_fb"></div></a>
+			<a href="https://vk.com/evgeniyapronina" target="_blank"><div class="icon_box icon_vk"></div></a>
+			<a href="https://www.twitter.com" target="_blank"><div class="icon_box icon_twitter"></div></a>
+			<a href="https://github.com/EvgeniyaPronina" target="_blank"><div class="icon_box last_icon_box icon_github"></div></a>
+			<ul class="soc_links_text hidden">
+				<li><a href="https://www.facebook.com" target="_blank">www.facebook.com</a></li>
+				<li><a href="https://vk.com/evgeniyapronina" target="_blank">vk.com/evgeniyapronina</a></li>
+				<li><a href="https://www.twitter.com" target="_blank">www.twitter.com</a></li>
+				<li><a href="https://github.com/EvgeniyaPronina" target="_blank">github.com/EvgeniyaPronina</a></li>
+			</ul>
 		</div>
 		<div class="s_header_underline"></div>
 	</header>
@@ -82,9 +89,15 @@
 				<adress class="s_adress">
 					<ul class="s_adress_ul">
 						<li class="s_adress_li s_adress_li_header">Контакты</li>
-						<li class="s_adress_li s_adress_li_item s_adress_li_item_first s_adress_li_item_mail clearfix"><img src="img/arrow_mail.png"><span><a href="">pochta@mail.ru</a></span></li>
-						<li class="s_adress_li s_adress_li_item s_adress_li_item_phone clearfix"><img src="img/arrow_phone.png"><span>+71234567890</span></li>
-						<li class="s_adress_li s_adress_li_item s_adress_li_item_last s_adress_li_item_s_adress_li_item_skype clearfix"><img src="img/arrow_skype.png"><span>myskype</span></li>
+						<li class="s_adress_li s_adress_li_item s_adress_li_item_first clearfix">
+							<div class="s_adress_li_item_mail"></div><span><a href="mailto:rezinkina@list.ru">rezinkina@list.ru</a></span>
+						</li>
+						<li class="s_adress_li s_adress_li_item clearfix">
+							<div class="s_adress_li_item_phone"></div><span>+79609660360</span>
+						</li>
+						<li class="s_adress_li s_adress_li_item s_adress_li_item_last clearfix">
+							<div class="s_adress_li_item_skype"></div><span>evgeniya_pronina1</span>
+						</li>
 					</ul>
 				</adress>
 			</div>
@@ -96,26 +109,30 @@
 						<div class="about_me_item clearfix">
 							<div class="photo_box">
 								<div class="photo_frame">
-									<img class="my_photo" src="img/my_photo.jpg" height="134" width="134">
+									<div class="photo_wrapper">
+										<img class="my_photo" src="img/my_photo.jpg" alt="Евгения Пронина, фото">
+									</div>
 								</div>
 							</div>
 							<div class="about_me_info_box">
 								<p class="about_me_info"><span class="semibold">Меня зовут:</span> Пронина Евгения Александровна</p>
 								<p class="about_me_info"><span class="semibold">Мой возраст:</span> 32 года</p>
 								<p class="about_me_info"><span class="semibold">Мой город:</span> Барнаул, Россия</p>
-								<p class="about_me_info"><span class="semibold">Моя специализация:</span> frontend разработка</p>
+								<p class="about_me_info about_me_info_last"><span class="semibold">Моя специализация:</span> frontend разработка</p>
 								<table class="tags_table">
 									<tr>
 										<td class="semibold tags_header">Ключевые навыки:</td>
 										<td>
-											<span class="tag">HTML</span>
-											<span class="tag">CSS</span>
-											<span class="tag">JavaScript</span>
-											<span class="tag">Git</span>
-											<span class="tag">Gulp</span>
-											<span class="tag">PHP</span>
-											<span class="tag">Angular</span>
-											<span class="tag">xml</span>
+											<ul>
+												<li class="tag">HTML</li>
+												<li class="tag">CSS</li>
+												<li class="tag">JavaScript</li>
+												<li class="tag">Git</li>
+												<li class="tag">Gulp</li>
+												<li class="tag">PHP</li>
+												<li class="tag">Angular</li>
+												<li class="tag">xml</li>
+											</ul>
 										</td>
 									</tr>
 								</table>
@@ -215,7 +232,6 @@
 	</footer>
 	
 	<!-- vendor JS -->
-	<script src="bower/html5shiv/dist/html5shiv.js"></script>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="bower/jquery/dist/jquery.js"><\/script>')</script>
 	<!-- my JS -->
