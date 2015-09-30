@@ -45,6 +45,7 @@
 	<div class="authorize_popup hidden">
 		<div class="authorize_window hidden">
 			<p class="authorize_window_close_box">
+				<span class="authorize_miniheader">Авторизируйтесь</span>
 				<span class="authorize_window_close_x">X</span>
 			</p>
 			<form>
@@ -53,6 +54,51 @@
 					<p class="authorize_checkbox_input_box"><input class="authorize_checkbox_input" type="checkbox"><span class="authorize_checkbox_input_text">Запомнить меня?</span></p>
 					<input class="authorize_button_input" type="button" value="Войти">
 				</form>			
+		</div>
+	</div>
+	<div class="project_popup hidden">
+		<div class="sucsess_window hidden">
+			<p class="sucsess_window_close_box">
+				<span class="sucsess_window_close_x">X</span>
+			</p>
+			<div class="sucsess_message">
+				<p class="add_proj_sucsess_header">Ура!</p>
+				<p class="add_proj_sucsess_text">Проект успешно добавлен.</p>
+			</div>
+		</div>
+		<div class="project_window hidden">
+			<p class="project_window_close_box">
+				<span class="addproject_miniheader">Добавление проекта</span>
+				<span class="project_window_close_x">X</span>
+			</p>
+			<form>
+				<div class="add_proj_error">
+					<p class="add_proj_error_header">Ошибка!</p>
+					<p class="add_proj_error_text">Невозможно добавить проект.</p>
+				</div>
+				<p class="add_project_item_header">Название проекта</p>
+				<div class="addproject_field_box">
+					<div class="addproj_tooltip"><span>Введите название</span></div>
+					<input class="add_proj_text_input" placeholder="Введите название" type="text" required>
+				</div>
+				<p class="add_project_item_header">Картинка проекта</p>
+				<div class="addproject_field_box">
+					<div class="addproj_tooltip"><span>Загрузите изображение</span></div>
+					<input class="add_proj_text_input" placeholder="Загрузите изображение" type="text" required>
+					<input class="add_proj_file_button" type="button">
+				</div>
+				<p class="add_project_item_header">URL проекта</p>
+				<div class="addproject_field_box">
+					<div class="addproj_tooltip"><span>Введите ссылку</span></div>
+					<input class="add_proj_text_input" placeholder="Добавьте ссылку" type="text" required>
+				</div>
+				<p class="add_project_item_header">Описание</p>
+				<div class="addproject_field_box">
+					<div class="addproj_tooltip"><span>Введите описание</span></div>
+					<textarea class="add_proj_textarea" rows="5" placeholder="Пара слов о вашем проекте"></textarea>
+				</div>
+				<input class="add_project_button_input" type="button" value="Добавить">
+			</form>			
 		</div>
 	</div>
 	<header class="s_header">

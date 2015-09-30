@@ -32,6 +32,38 @@ $(document).ready(function() {
 		});
 	}
 
+	var addProjectPopup = function() {
+		$(".add_project_box").click(function() {
+			$(".project_popup").removeClass("hidden");
+			$(".project_window").removeClass("hidden");
+		});
+		$(".project_window_close_x").click(function() {
+			$(".project_popup").addClass("hidden");
+			$(".project_window").addClass("hidden");
+		});
+	}
+
+	var addProject = function() {
+		$(".add_project_button_input").click(function() {
+			$(".project_window").addClass("hidden");
+			$(".sucsess_window").removeClass("hidden");
+		});
+	}
+
+	var closeSucsessWindow = function() {
+		$(".sucsess_window_close_x").click(function() {
+			$(".project_popup").addClass("hidden");
+			$(".project_window").addClass("hidden");
+			$(".sucsess_window").addClass("hidden");
+		});
+	}
+
+	closeSucsessWindow();
+
+	addProject();
+
+	addProjectPopup();
+
 	openCloseAuthPopup();
 
 });
