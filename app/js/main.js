@@ -57,7 +57,7 @@ $(document).ready(function() {
 			$(".page_wrap").removeClass("unvisible");
 			$(".footer").removeClass("unvisible");
 		});
-	}
+	};
 
 	var addProjectPopup = function() {
 		$(".add_project_box").click(function() {
@@ -68,14 +68,14 @@ $(document).ready(function() {
 			$(".project_popup").addClass("hidden");
 			$(".project_window").addClass("hidden");
 		});
-	}
+	};
 
 	var addProject = function() {
 		$(".add_project_button_input").click(function() {
 			$(".project_window").addClass("hidden");
 			$(".sucsess_window").removeClass("hidden");
 		});
-	}
+	};
 
 	var closeSucsessWindow = function() {
 		$(".sucsess_window_close_x").click(function() {
@@ -83,7 +83,16 @@ $(document).ready(function() {
 			$(".project_window").addClass("hidden");
 			$(".sucsess_window").addClass("hidden");
 		});
-	}
+	};
+
+	var openCloseMenu = function() {
+		$(".menu_button").click(function() {
+			$(".triangel_arrow").toggleClass("hidden");
+			$(".s_nav_in_header").toggleClass("hidden");
+		});
+	};
+
+	openCloseMenu();
 
 	closeSucsessWindow();
 

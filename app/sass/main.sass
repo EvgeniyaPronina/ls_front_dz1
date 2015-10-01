@@ -54,6 +54,7 @@ body
 	line-height: 80px
 	background: url(../img/bg_head.jpg)
 	text-align: right
+	position: relative
 
 .logo_wrap
 	text-align: left
@@ -104,6 +105,90 @@ body
 	height: 10px
 	background: url(../img/bg_divider.png) repeat-x
 	box-shadow: 0 4px 6px rgba(0,0,0,0.1)
+
+.menu_button_box
+	position: absolute
+	height: 100%
+	width: 110px
+	top: 0
+	right: 0
+	text-align: center
+	padding-top: 5px
+	box-sizing: border-box
+	display: none
+
+.menu_button
+	cursor: pointer
+
+.triangel_arrow
+	position: absolute
+	background-image: url(../img/triang_arrow.png)
+	background-repeat: no-repeat
+	width: 30px
+	height: 22px
+	left: 40px
+	top: 55px
+
+.s_nav_in_header
+	position: absolute
+	right: 13px
+	top: 76px
+
+.s_nav_ul_in_header
+	padding: 0
+	margin: 0
+	width: 196px
+	box-shadow: 0 2px 2px 0px rgba(0,0,0,0.1)
+	border-radius: 5px
+
+
+.s_nav_li_in_header
+	height: 43px
+	line-height: 43px
+	vertical-align: middle
+	padding-left: 30px
+	cursor: pointer
+	font-size: 16px
+	font-weight: 600
+	text-shadow: 0px 1px 0px #e5e5ee
+	box-sizing: border-box
+	border: 1px solid rgba(0,0,0,.2)
+	list-style-type: none
+	text-align: left
+	background-clip: border-box
+	background: #f0eeed
+	background: -moz-linear-gradient(top, #fbfafa 0%, #e5e3e2 100%)
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fbfafa), color-stop(100%,#e5e3e2))
+	background: -webkit-linear-gradient(top, #fbfafa 0%,#e5e3e2 100%)
+	background: -o-linear-gradient(top, #fbfafa 0%,#e5e3e2 100%)
+	background: -ms-linear-gradient(top, #fbfafa 0%,#e5e3e2 100%)
+	background: linear-gradient(to bottom, #fbfafa 0%,#e5e3e2 100%)
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfafa', endColorstr='#e5e3e2',GradientType=0 )
+
+.s_nav_li_in_header:hover
+	background: #d5d3d3
+	background: -moz-linear-gradient(top,  #e8e7e7 0%, #c1bfbf 100%)
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e8e7e7), color-stop(100%,#c1bfbf))
+	background: -webkit-linear-gradient(top,  #e8e7e7 0%,#c1bfbf 100%)
+	background: -o-linear-gradient(top,  #e8e7e7 0%,#c1bfbf 100%)
+	background: -ms-linear-gradient(top,  #e8e7e7 0%,#c1bfbf 100%)
+	background: linear-gradient(to bottom,  #e8e7e7 0%,#c1bfbf 100%)
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e7e7', endColorstr='#c1bfbf',GradientType=0 )
+
+.s_nav_li_in_header.s_nav_li_active
+	background: #5dceb2
+	background: -moz-linear-gradient(top, #7ce7cd 0%, #40b89a 100%)
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7ce7cd), color-stop(100%,#40b89a))
+	background: -webkit-linear-gradient(top, #7ce7cd 0%,#40b89a 100%)
+	background: -o-linear-gradient(top, #7ce7cd 0%,#40b89a 100%)
+	background: -ms-linear-gradient(top, #7ce7cd 0%,#40b89a 100%)
+	background: linear-gradient(to bottom, #7ce7cd 0%,#40b89a 100%)
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7ce7cd', endColorstr='#40b89a',GradientType=0 )
+
+.s_nav_in_header a
+	text-decoration: none
+	color: inherit
+	display: block
 
 /* Page styles */
 
@@ -279,6 +364,9 @@ body
 
 .s_adress_li_item_last
 	border-radius: 0 0 5px 5px
+
+.bottom_s_adress
+	display: none
 
 .main_wrap
 	float: right
@@ -1206,3 +1294,62 @@ body
 	font-weight: 300
 	font-size: 14px
 
+/* Media queries */
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	
+	.window_settings
+		min-width: 769px
+
+	.nav_adress_wrap
+		display: none
+
+	.main_wrap
+		float: none
+		margin: 36px 16px
+		width: auto
+
+	.inner_page_wrap
+		width: auto
+		margin: auto
+
+	.footer
+		min-width: 769px
+
+	.footer_content
+		width: auto
+
+	.lock_box
+		margin-left: 90px
+
+	.bottom_s_adress
+		display: block
+
+	.s_adress_ul
+		border-radius: 0
+
+	.s_adress_li_item
+		float: left
+		width: 33.33333%
+		border-radius: 0
+
+	.s_adress_li_item a
+		color: inherit
+		text-decoration: none
+
+	.s_adress_li_item_first
+		background-image: #f9f9f8
+		background-image: -moz-linear-gradient(top, #ffffff 0%, #f6f5f5 100%)
+		background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f6f5f5))
+		background-image: -webkit-linear-gradient(top, #ffffff 0%,#f6f5f5 100%)
+		background-image: -o-linear-gradient(top, #ffffff 0%,#f6f5f5 100%)
+		background-image: -ms-linear-gradient(top, #ffffff 0%,#f6f5f5 100%)
+		background-image: linear-gradient(to bottom, #ffffff 0%,#f6f5f5 100%)
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f5f5',GradientType=0 )
+
+	.menu_button_box
+		display: block
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
