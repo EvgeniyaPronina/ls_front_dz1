@@ -1,0 +1,1197 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"togg",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"bacg",
+				"background-repeat"
+			],
+			[
+				"border",
+				"border-box"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"po",
+				"pos:a	position:absolute"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"clear",
+				"clearfix"
+			],
+			[
+				"no-",
+				"no-repeat"
+			],
+			[
+				"bac",
+				"background-repeat"
+			],
+			[
+				"o",
+				"ov	overflow"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"tran",
+				"transform"
+			],
+			[
+				"pos",
+				"pos:a	position:absolute"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"text",
+				"textarea	Tag"
+			],
+			[
+				"remo",
+				"removeClass	.removeClass()"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"bor",
+				"border-box"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"box-s",
+				"box-sizing"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"backgr",
+				"background-position"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"au",
+				"authorize_window"
+			],
+			[
+				"bagr",
+				"background"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"i",
+				"index.html"
+			],
+			[
+				"bot",
+				"bottom"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"d",
+				"d:b	display:block"
+			],
+			[
+				"cur",
+				"cur:p	cursor:pointer"
+			],
+			[
+				"bro",
+				"browserSync"
+			],
+			[
+				"read",
+				"ready	$(document).ready"
+			],
+			[
+				"mt",
+				"margin-top"
+			],
+			[
+				"mh",
+				"min-height"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"fl",
+				"float"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "img_dev/доработки ДЗ.txt",
+			"settings":
+			{
+				"buffer_size": 4160,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/index.html",
+			"settings":
+			{
+				"buffer_size": 12072,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/portfolio.html",
+			"settings":
+			{
+				"buffer_size": 12612,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/contacts.html",
+			"settings":
+			{
+				"buffer_size": 9266,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/sass/main.sass",
+			"settings":
+			{
+				"buffer_size": 37273,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/js/main.js",
+			"settings":
+			{
+				"buffer_size": 3050,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/css/main.css",
+			"settings":
+			{
+				"buffer_size": 40159,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 490.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			]
+		],
+		"width": 637.0
+	},
+	"console":
+	{
+		"height": 162.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/PHPStormProjects/ls_dz1/ls_dz1_site",
+		"/C/PHPStormProjects/ls_dz1/ls_dz1_site/app",
+		"/C/PHPStormProjects/ls_dz1/ls_dz1_site/app/css",
+		"/C/PHPStormProjects/ls_dz1/ls_dz1_site/app/js",
+		"/C/PHPStormProjects/ls_dz1/ls_dz1_site/app/sass",
+		"/C/PHPStormProjects/ls_dz1/ls_dz1_site/img_dev"
+	],
+	"file_history":
+	[
+		"/C/Users/Игорь/AppData/Roaming/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
+		"/C/PHPStormProjects/ls_dz1/ls_dz1_site/app/contacts.html",
+		"/C/PHPStormProjects/ls_dz1/ls_dz1_site/app/portfolio.html",
+		"/C/PHPStormProjects/ls_dz1/ls_dz1_site/app/index.html",
+		"/C/Users/Игорь/AppData/Roaming/Sublime Text 3/Packages/ColorPicker/ColorPicker.sublime-settings",
+		"/C/Users/Игорь/AppData/Roaming/Sublime Text 3/Packages/CSScomb/Default.sublime-keymap",
+		"/C/Users/Игорь/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Игорь/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Игорь/AppData/Roaming/Sublime Text 3/Packages/User/CSScomb.sublime-settings",
+		"/C/PHPStormProjects/igorpronin_beget/index.html",
+		"/C/PHPStormProjects/ls_dz1/ls_dz1_site/img_dev/доработки ДЗ.txt",
+		"/C/PHPStormProjects/ls_dz1/ls_dz1_site/img_dev/webfontkit-20150930-105808/stylesheet.css",
+		"/C/PHPStormProjects/ls_dz1/ls_dz1_site/.gitignore",
+		"/C/PHPStormProjects/ls_dz1/ls_dz1_site/app/sass/main.sass",
+		"/C/PHPStormProjects/KolourOne_hc/wp-content/themes/KolourOne/css/fonts.css",
+		"/C/PHPStormProjects/ls_dz1/ls_dz1_site/app/js/main.js",
+		"/C/Users/Игорь/AppData/Local/Temp/Rar$DIa0.284/stylesheet.css",
+		"/C/PHPStormProjects/igorpronin_beget/js/common.js",
+		"/C/PHPStormProjects/ls_dz1/ls_dz1_site/app/css/main.css",
+		"/C/Users/Игорь/AppData/Local/Temp/Rar$EXa0.851/opensans-light-demo.html",
+		"/C/Users/Игорь/AppData/Local/Temp/Rar$DIa0.172/specimen_stylesheet.css",
+		"/C/Users/Игорь/AppData/Local/Temp/Rar$DIa0.498/grid_12-825-55-15.css",
+		"/C/PHPStormProjects/igorpronin_beget/css/fonts.css",
+		"/C/PHPStormProjects/KolourOne_hc/wp-content/themes/KolourOne/style.css",
+		"/C/PHPStormProjects/ls_dz1/ls_dz1_site/app/css/fonts.css",
+		"/C/PHPStormProjects/ls_dz1/ls_dz1_site/app/css/media.css",
+		"/C/PHPStormProjects/learn_js/code.js",
+		"/C/PHPStormProjects/learn_js/index.html",
+		"/C/Users/Игорь/AppData/Local/Temp/Rar$EXa0.770/index.html",
+		"/C/Users/Игорь/Downloads/common.cfg",
+		"/C/PHPStormProjects/ls_dz1/ls_dz1_site/package.json",
+		"/C/PHPStormProjects/ls_dz1/ls_dz1_site/img_dev/lock_stylesheet.txt",
+		"/C/PHPStormProjects/ls_dz1/ls_dz1_site/img_dev/spritestylesheet.txt",
+		"/C/PHPStormProjects/ls_dz1/ls_dz1_site/index.html",
+		"/C/PHPStormProjects/ls_dz1/ls_dz1_site/bower.json",
+		"/C/PHPStormProjects/ls_dz1/ls_dz1_site/gulpfile.js",
+		"/C/PHPStormProjects/ls_dz1/ls_dz1_site/README.md",
+		"/C/PHPStormProjects/igorpronin_beget/css/media.css",
+		"/C/PHPStormProjects/ls_dz1/ls_dz1_site/.bowerrc",
+		"/C/PHPStormProjects/to_hc/www/htdocs/index.php",
+		"/C/PHPStormProjects/to_hc/www/htdocs/common/redirector.php",
+		"/C/PHPStormProjects/to_hc/www/htdocs/documents/documents.php",
+		"/C/PHPStormProjects/to_hc/www/htdocs/documents/index.php",
+		"/C/PHPStormProjects/to_hc/www/htdocs/documents/showdocument.php",
+		"/C/Users/Игорь/AppData/Local/Temp/fz3temp-1/883155006507.html",
+		"/C/Users/Игорь/Desktop/883155006507.html",
+		"/C/Users/Игорь/Desktop/99f56104091c.html",
+		"/C/Users/Игорь/AppData/Local/Temp/fz3temp-1/index.html",
+		"/C/PHPStormProjects/to_hc/www/htdocs/common/config/common.cfg",
+		"/C/Users/Игорь/AppData/Local/Temp/fz3temp-1/index.php",
+		"/C/Users/Игорь/AppData/Local/Temp/fz3temp-1/common 2.cfg",
+		"/C/Users/Игорь/AppData/Local/Temp/fz3temp-1/common.cfg",
+		"/C/Users/Игорь/Desktop/test.html",
+		"/C/cloud_storages/YandexDisk/!Библиотека/Книги/Программирование/Файлы для книги CSS3_MM_TUTORIALS/16/print.css",
+		"/C/cloud_storages/CloudMail_rezinkinaAcc/Обучение/Front-End/Задания/01_Test_site/index.html",
+		"/C/cloud_storages/CloudMail_rezinkinaAcc/Обучение/Front-End/Задания/01_Test_site/css/fonts.css",
+		"/C/cloud_storages/YandexDisk/!Библиотека/Книги/Программирование/Файлы для книги CSS3_MM_TUTORIALS/16/print.html",
+		"/C/PHPStormProjects/test_task_loftschool/Site/media-queries.css",
+		"/C/cloud_storages/YandexDisk/!Библиотека/Книги/Программирование/Файлы для книги CSS3_MM_TUTORIALS/15/styles.css",
+		"/C/cloud_storages/YandexDisk/!Библиотека/Книги/Программирование/Файлы для книги CSS3_MM_TUTORIALS/15/hats.html",
+		"/C/cloud_storages/YandexDisk/!Библиотека/Книги/Программирование/Файлы для книги CSS3_MM_TUTORIALS/14/styles.css",
+		"/C/cloud_storages/YandexDisk/!Библиотека/Книги/Программирование/Файлы для книги CSS3_MM_TUTORIALS/14/rwd.html",
+		"/C/Users/Игорь/Downloads/gridinator.css",
+		"/C/Users/Игорь/AppData/Roaming/Sublime Text 3/Packages/User/Gist.sublime-settings",
+		"/C/cloud_storages/YandexDisk/!Библиотека/Книги/Программирование/Файлы для книги CSS3_MM_TUTORIALS/13_finished/start.html",
+		"/C/cloud_storages/YandexDisk/!Библиотека/Книги/Программирование/Файлы для книги CSS3_MM_TUTORIALS/13/start.html",
+		"/C/cloud_storages/YandexDisk/!Библиотека/Книги/Программирование/Файлы для книги CSS3_MM_TUTORIALS/13/styles.css",
+		"/C/Users/Игорь/AppData/Roaming/Sublime Text 3/Packages/Gist/Gist.sublime-settings",
+		"/c/users/d395~1/appdata/local/temp/css",
+		"/c/users/d395~1/appdata/local/temp/js",
+		"/C/Users/Игорь/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Игорь/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
+		"/C/cloud_storages/YandexDisk/!Библиотека/Книги/Программирование/Файлы для книги CSS3_MM_TUTORIALS/09/nav_bar/nav_bar.html",
+		"/C/cloud_storages/YandexDisk/!Библиотека/Книги/Программирование/Файлы для книги CSS3_MM_TUTORIALS/11/form/form.html",
+		"/C/PHPStormProjects/cds22_hc/www/htdocs/_index.html",
+		"/C/cloud_storages/YandexDisk/!Библиотека/Книги/Программирование/Файлы для книги CSS3_MM_TUTORIALS/09/links/links.html",
+		"/C/Users/Игорь/Desktop/index.html",
+		"/C/Users/Игорь/YandexDisk/!Библиотека/Книги/Программирование/Файлы для книги CSS3_MM_TUTORIALS/06/text.html",
+		"/C/Users/Игорь/Downloads/CSS3_MM_TUTORIALS/05/styles.css",
+		"/C/Users/Игорь/Downloads/CSS3_MM_TUTORIALS/05/reset.css",
+		"/C/PHPStormProjects/test_task_loftschool/start_html-master/_clean_html/index.html",
+		"/C/PHPStormProjects/test_task_loftschool/Site/index.html",
+		"/C/Users/Игорь/AppData/Local/Temp/Rar$EXa0.089/CSS3_MM_TUTORIALS/02/basic.html",
+		"/C/Users/Игорь/Downloads/CSS3_MM_TUTORIALS/02/basic.html",
+		"/C/Users/Игорь/Downloads/CSS3_MM_TUTORIALS/03_finished/selector_basics.html",
+		"/C/PHPStormProjects/test_task_loftschool/_clean_html/mail.php",
+		"/C/Users/Игорь/AppData/Local/Temp/Rar$DIa0.338/2.1.php",
+		"/C/Users/Игорь/Downloads/index.php"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"s_adress_link_box",
+			"<img",
+			"menu_button",
+			"menu_button_box",
+			"s_adress_li",
+			"portfolio_box",
+			"1018",
+			"992",
+			"s_adress_li_item_mail",
+			"<img",
+			"img",
+			"photo_box",
+			"auth",
+			"social_link",
+			"about_me_item",
+			"console",
+			"adipisicing",
+			"img"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "img_dev/доработки ДЗ.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4160,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3402,
+								3402
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1828.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12072,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5350,
+								6457
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2222.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/portfolio.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12612,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8442,
+								8442
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3191.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/contacts.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9266,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6473,
+								6473
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2223.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/sass/main.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 37273,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11532,
+								11532
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 8810.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/js/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3050,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/css/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 40159,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								240,
+								240
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3234.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ls_dz1_project.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 625.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 475.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 357.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
