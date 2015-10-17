@@ -1,17 +1,9 @@
-function func1() {
-	console.log(window);
-	console.log("innerHeight " + window.innerHeight);
-	console.log("innerWidth " + window.innerWidth);
-	console.log("outerHeight " + window.outerHeight);
-	console.log("outerWidth " + window.outerWidth);
-}
-
-window.onload = func1;
-
 $(document).ready(function() {
 	
 	console.log("js works");
-	console.log($);
+	if($) {
+		console.log("jQuery works");
+	};
 	
 	// Переделать эту функцию после того, как будет реализован функционал регистрации.
 	var openCloseAuthPopup = function() {
@@ -71,7 +63,7 @@ $(document).ready(function() {
 	};
 
 	var addProject = function() {
-		$(".add_project_button_input").click(function() {
+		$(".add_project_button_input").on("submit", function() {
 			$(".project_window").addClass("hidden");
 			$(".sucsess_window").removeClass("hidden");
 		});
@@ -101,5 +93,55 @@ $(document).ready(function() {
 	addProjectPopup();
 
 	openCloseAuthPopup();
+
+	$("#contacts_form").validate({
+		messages: {
+			contacts_form_name: "Введите имя",
+			contacts_form_email: {
+				required: "Введите e-mail",
+				email: "Не верный e-mail"
+			},
+			contacts_form_message: "Введите сообщение",
+			contacts_form_capcha: "Введите код"
+		}
+		
+	});
+
+	var clearForm = function() {
+		$(".clear_button").on("click", function() {
+			$("#contacts_form_name").removeClass("error");
+			$("#contacts_form_name").removeClass("valid");
+			$("#contacts_form_name-error").remove();
+			$("#contacts_form_email").removeClass("error");
+			$("#contacts_form_email").removeClass("valid");
+			$("#contacts_form_email-error").remove();
+			$("#contacts_form_message").removeClass("error");
+			$("#contacts_form_message").removeClass("valid");
+			$("#contacts_form_message-error").remove();
+			$("#contacts_form_capcha").removeClass("error");
+			$("#contacts_form_capcha").removeClass("valid");
+			$("#contacts_form_capcha-error").remove();
+		});
+	};
+	
+	clearForm();
+
+	$("#portfolio_form").validate({
+		messages: {
+			portfolio_form_name: "Введите название",
+			portfolio_form_url: "Введите ссылку",
+			portfolio_form_descr: "Введите описание",
+			
+		},
+		invalidHandler: function(event, validator) {
+		// 'this' refers to the form
+			var errors = validator.numberOfInvalids();
+			if (errors) {
+				$(".add_proj_error").show();
+			} else {
+				$(".add_proj_error").hide();
+			}
+		}
+	});
 
 });

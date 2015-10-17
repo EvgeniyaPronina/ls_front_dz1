@@ -134,35 +134,45 @@
 					<div class="contert_section_header">У вас интересный проект? Напишите мне</div>
 					<div class="content_section_contentbox">
 						<div class="contacts_wrap clearfix">
-							<div class="name_and_email_wrap clearfix">
-								<div class="name_wrap">
-									<p class="contacts_item_header">Имя</p>
-									<input class="name_email_input" type="text" placeholder="Как к вам обращаться">
+							<form id="contacts_form" method="GET" action="">
+								<div class="name_and_email_wrap clearfix">
+									<div class="name_wrap">
+										<p class="contacts_item_header">Имя</p>
+										<div class="contacts_input_wrap">
+											<input id="contacts_form_name" name="contacts_form_name" class="name_email_input" type="text" placeholder="Как к вам обращаться" required>
+										</div>
+									</div>
+									<div class="email_wrap">
+										<p class="contacts_item_header">Email</p>
+										<div class="contacts_input_wrap">	
+											<input id="contacts_form_email" name="contacts_form_email" class="name_email_input" type="email" placeholder="Куда мне писать" required>
+										</div>
+									</div>
 								</div>
-								<div class="email_wrap">
-									<p class="contacts_item_header">Email</p>
-									<input class="name_email_input" type="text" placeholder="Куда мне писать">
+								<p class="contacts_item_header">Сообщение</p>
+								<div class="contacts_input_wrap">
+									<textarea id="contacts_form_message" class="message_textarea" name="contacts_form_message" placeholder="Кратко в чем суть" id="" rows="10" required></textarea>
 								</div>
-							</div>
-							<p class="contacts_item_header">Сообщение</p>
-							<textarea class="message_textarea" name="" placeholder="Кратко в чем суть" id="" rows="10"></textarea>
-							<p class="contacts_item_header">Введите код, указанный на картинке</p>
-							<div class="name_and_email_wrap clearfix">
-								<div class="name_wrap">
-									<div class="capcha_box">КАПЧА!</div>
+								<p class="contacts_item_header">Введите код, указанный на картинке</p>
+								<div class="name_and_email_wrap clearfix">
+									<div class="name_wrap">
+										<div class="capcha_box">КАПЧА!</div>
+									</div>
+									<div class="email_wrap">
+										<div class="contacts_input_wrap">
+											<input class="code_input" name="contacts_form_capcha" id="contacts_form_capcha" type="text" placeholder="Введите код" required>
+										</div>
+									</div>
 								</div>
-								<div class="email_wrap">
-									<input class="code_input" type="text" placeholder="Введите код">
+								<div class="name_and_email_wrap clearfix">
+									<div class="name_wrap">
+										<input class="contacts_button_input colored_green_button" type="submit" name="submit" value="Отправить">
+									</div>
+									<div class="email_wrap">
+										<input class="contacts_button_input colored_light_button clear_button" type="reset" value="Очистить">
+									</div>
 								</div>
-							</div>
-							<div class="name_and_email_wrap clearfix">
-								<div class="name_wrap">
-									<input class="contacts_button_input colored_green_button" type="button" value="Отправить">
-								</div>
-								<div class="email_wrap">
-									<input class="contacts_button_input colored_light_button" type="button" value="Очистить">
-								</div>
-							</div>
+							</form>
 						</div>
 					</div>
 				</section>
@@ -197,5 +207,9 @@
 	<script>window.jQuery || document.write('<script src="bower/jquery/dist/jquery.js"><\/script>')</script>
 	<!-- my JS -->
 	<script src="js/main.js"></script>
+	<!-- form validation -->
+	<script src="bower/jquery-validation/dist/jquery.validate.min.js"></script>
+	<!-- Placeholder for IE -->
+	<script src="js/jquery.placeholder.min.js"></script>
 </body>
 </html>

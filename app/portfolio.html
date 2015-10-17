@@ -73,33 +73,33 @@
 				<span class="addproject_miniheader">Добавление проекта</span>
 				<span class="project_window_close_x">X</span>
 			</p>
-			<form>
-				<div class="add_proj_error">
+			<form id="portfolio_form" method="post" action="">
+				<div class="add_proj_error hidden">
 					<p class="add_proj_error_header">Ошибка!</p>
 					<p class="add_proj_error_text">Невозможно добавить проект.</p>
 				</div>
 				<p class="add_project_item_header">Название проекта</p>
 				<div class="addproject_field_box">
-					<div class="addproj_tooltip"><span>Введите название</span></div>
-					<input class="add_proj_text_input" placeholder="Введите название" type="text" required>
+					<!-- <div class="addproj_tooltip"><span>Введите название</span></div> -->
+					<input id="portfolio_form_name" name="portfolio_form_name" class="add_proj_text_input" placeholder="Введите название" type="text" required>
 				</div>
 				<p class="add_project_item_header">Картинка проекта</p>
 				<div class="addproject_field_box">
 					<div class="addproj_tooltip"><span>Загрузите изображение</span></div>
-					<input class="add_proj_text_input" placeholder="Загрузите изображение" type="text" required>
+					<input class="add_proj_text_input" placeholder="Загрузите изображение" type="text">
 					<input class="add_proj_file_button" type="button">
 				</div>
 				<p class="add_project_item_header">URL проекта</p>
 				<div class="addproject_field_box">
-					<div class="addproj_tooltip"><span>Введите ссылку</span></div>
-					<input class="add_proj_text_input" placeholder="Добавьте ссылку" type="text" required>
+					<!-- <div class="addproj_tooltip"><span>Введите ссылку</span></div> -->
+					<input id="portfolio_form_url" name="portfolio_form_url" class="add_proj_text_input" placeholder="Добавьте ссылку" type="text" required>
 				</div>
 				<p class="add_project_item_header">Описание</p>
 				<div class="addproject_field_box">
-					<div class="addproj_tooltip"><span>Введите описание</span></div>
-					<textarea class="add_proj_textarea" rows="5" placeholder="Пара слов о вашем проекте"></textarea>
+					<!-- <div class="addproj_tooltip"><span>Введите описание</span></div> -->
+					<textarea id="portfolio_form_descr" name="portfolio_form_descr" class="add_proj_textarea" rows="5" placeholder="Пара слов о вашем проекте" required></textarea>
 				</div>
-				<input class="add_project_button_input" type="button" value="Добавить">
+				<input class="add_project_button_input" type="submit" value="Добавить">
 			</form>			
 		</div>
 	</div>
@@ -272,7 +272,11 @@
 	<!-- vendor JS -->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="bower/jquery/dist/jquery.js"><\/script>')</script>
+	<!-- form validation -->
+	<script src="bower/jquery-validation/dist/jquery.validate.min.js"></script>
 	<!-- my JS -->
 	<script src="js/main.js"></script>
+	<!-- Placeholder for IE -->
+	<script src="js/jquery.placeholder.min.js"></script>
 </body>
 </html>
